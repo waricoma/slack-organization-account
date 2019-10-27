@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-emoji": "^1.1.2",
+    "semistandard": "^14.2.0"
+  },
+  "dependencies": {
+    "@slack/client": "^5.0.2",
+    "dotenv": "^8.2.0",
+    "http": "^0.0.0",
+    "nedb-async": "0.0.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    }
+  }
+}
